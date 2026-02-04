@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Supporto - Dizionario di Italiano">
+    <title>Supporto - Dizionario di Italiano</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .support-page {
+            padding: 60px 0;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .support-page h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-color);
+        }
+
+        .support-page .intro {
+            font-size: 18px;
+            color: var(--text-secondary);
+            margin-bottom: 50px;
+            line-height: 1.8;
+        }
+
+        .support-page h2 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            color: var(--text-color);
+        }
+
+        .support-page h3 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: var(--text-color);
+        }
+
+        .support-page p {
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        .faq-item {
+            background: var(--bg-secondary);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        .faq-item h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .contact-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .contact-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+
+        .contact-card .icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .contact-card h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .contact-card a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <img src="images/app-icon.png" alt="Dizionario di Italiano" class="logo-icon">
+                    <h1><a href="index.html" style="color: inherit; text-decoration: none;">Dizionario di Italiano</a></h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="support.html">Supporto</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container support-page">
+        <h1>Centro di Supporto</h1>
+        <p class="intro">
+            Benvenuto nel Centro di Supporto di Dizionario di Italiano. Qui troverai risposte alle domande più
+            frequenti e informazioni su come contattarci per assistenza.
+        </p>
+
+        <h2>Domande Frequenti (FAQ)</h2>
+
+        <div class="faq-item">
+            <h3>Come posso cercare una parola?</h3>
+            <p>
+                Tocca la tab "Ricerca" nella barra inferiore dell'app, quindi digita la parola che vuoi cercare
+                nel campo di ricerca. I risultati appariranno in tempo reale mentre digiti. Puoi filtrare i
+                risultati per tipologia (sostantivo, verbo, aggettivo, ecc.) toccando i filtri che appaiono
+                sotto la barra di ricerca.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Come funziona il coniugatore verbi?</h3>
+            <p>
+                Vai alla tab "Coniugatore", digita il verbo che vuoi coniugare e tocca "Cerca". L'app mostrerà
+                tutte le coniugazioni disponibili organizzate per modo (Indicativo, Congiuntivo, Condizionale,
+                Imperativo) e tempo. Puoi anche vedere le forme indefinite (Infinito, Participio, Gerundio).
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Come salvo le parole nei preferiti?</h3>
+            <p>
+                Quando visualizzi una parola, tocca l'icona della stella in alto a destra per aggiungerla ai
+                preferiti. Puoi accedere a tutte le parole salvate dalla tab "Preferiti". Per rimuovere una
+                parola dai preferiti, tocca nuovamente l'icona della stella o scorri verso sinistra sulla parola
+                nella lista dei preferiti.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Come cambio la lingua dell'interfaccia?</h3>
+            <p>
+                Vai alla tab "Impostazioni" e tocca "Lingua". L'app supporta 10 lingue: Italiano, Inglese,
+                Spagnolo, Francese, Tedesco, Portoghese, Russo, Cinese, Giapponese e Arabo. Seleziona la lingua
+                desiderata e l'interfaccia verrà aggiornata immediatamente.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Come attivo la modalità scura?</h3>
+            <p>
+                Vai alla tab "Impostazioni" e tocca "Tema". Puoi scegliere tra tre opzioni: Chiaro, Scuro o
+                Sistema (che segue automaticamente le impostazioni del tuo dispositivo). La modifica viene
+                applicata istantaneamente.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>L'app funziona offline?</h3>
+            <p>
+                Sì! Dizionario di Italiano funziona completamente offline. Tutte le 209.000+ voci del dizionario
+                e le 4.600+ coniugazioni dei verbi sono incluse nell'app. Non è necessaria una connessione
+                internet per utilizzare le funzionalità principali dell'app. Solo gli annunci pubblicitari
+                richiedono una connessione internet.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Posso cancellare la cronologia delle ricerche?</h3>
+            <p>
+                Sì! Nella schermata di ricerca, quando non ci sono risultati attivi, vedrai la sezione "Ricerche
+                Recenti". Tocca il pulsante "Cancella" in alto a destra per eliminare tutta la cronologia delle
+                ricerche.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Come posso esplorare le categorie?</h3>
+            <p>
+                Vai alla tab "Categorie" per esplorare le parole organizzate per tipologia: Sostantivi, Aggettivi,
+                Verbi, Avverbi, Modi di Dire, Colori, Toponimi e altro ancora. Tocca una categoria per vedere
+                tutte le voci che appartengono a quella categoria.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>L'app è compatibile con iPad e Mac?</h3>
+            <p>
+                Sì! Dizionario di Italiano è una Universal App ottimizzata per iPhone, iPad e Mac. L'interfaccia
+                si adatta automaticamente alle dimensioni dello schermo per offrire la migliore esperienza su
+                tutti i dispositivi.
+            </p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Come gestisco gli annunci pubblicitari?</h3>
+            <p>
+                L'app mostra annunci pubblicitari per supportare lo sviluppo continuo. Gli annunci appaiono come
+                banner in basso e annunci nativi integrati nei risultati di ricerca e nei preferiti. Se desideri
+                limitare gli annunci personalizzati, puoi farlo dalle impostazioni privacy del tuo dispositivo
+                iOS (Impostazioni → Privacy → Pubblicità).
+            </p>
+        </div>
+
+        <h2>Ancora bisogno di aiuto?</h2>
+        <p>
+            Se non hai trovato la risposta che cercavi, contattaci utilizzando uno dei metodi seguenti.
+            Ti risponderemo il prima possibile!
+        </p>
+
+        <div class="contact-options">
+            <div class="contact-card">
+                <div class="icon">📧</div>
+                <h3>Email</h3>
+                <p><a href="mailto:gino.sarnieri@gmail.com">gino.sarnieri@gmail.com</a></p>
+                <p style="font-size: 14px; color: var(--text-secondary);">Risposta entro 24-48 ore</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="icon">💬</div>
+                <h3>Feedback</h3>
+                <p><a href="mailto:gino.sarnieri@gmail.com">gino.sarnieri@gmail.com</a></p>
+                <p style="font-size: 14px; color: var(--text-secondary);">Invia suggerimenti e idee</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="icon">🐛</div>
+                <h3>Segnala un Bug</h3>
+                <p><a href="mailto:gino.sarnieri@gmail.com">gino.sarnieri@gmail.com</a></p>
+                <p style="font-size: 14px; color: var(--text-secondary);">Aiutaci a migliorare l'app</p>
+            </div>
+        </div>
+
+        <h2>Requisiti di Sistema</h2>
+        <p><strong>iOS/iPadOS:</strong> Richiede iOS 26.2 o versioni successive</p>
+        <p><strong>macOS:</strong> Richiede macOS 26.2 o versioni successive</p>
+        <p><strong>Spazio:</strong> Circa 150 MB di spazio libero richiesto</p>
+
+        <h2>Note sulla Privacy</h2>
+        <p>
+            Ci impegniamo a proteggere la tua privacy. Tutti i tuoi dati (preferiti, ricerche recenti, impostazioni)
+            sono memorizzati localmente sul tuo dispositivo e non vengono mai inviati ai nostri server.
+            Per maggiori informazioni, consulta la nostra <a href="privacy.html">Privacy Policy</a>.
+        </p>
+
+        <p style="margin-top: 60px; text-align: center;">
+            <a href="index.html" class="btn btn-primary">Torna alla Home</a>
+        </p>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dizionario di Italiano</h3>
+                    <p>L'app completa per esplorare la lingua italiana</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Link Utili</h4>
+                    <ul>
+                        <li><a href="support.html">Supporto</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Termini di Servizio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contatti</h4>
+                    <ul>
+                        <li><a href="mailto:gino.sarnieri@gmail.com">gino.sarnieri@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Dizionario di Italiano. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
